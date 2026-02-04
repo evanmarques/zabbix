@@ -18,7 +18,7 @@ Para cada comando, responda mentalmente:
 
 ### 🧭 Arquitetura COMPLETA (nível sistema)
 
- [ Kernel Linux ] ~ [Clique aqui para saber mais sobre Kernel](/zabbix/Documentacao/correlatas/kernel_linux.md)
+[ Kernel Linux ] ~ [Clique aqui para saber mais sobre Kernel](correlatas/kernel_linux.md)
       ↑
 [ Serviços (systemd) ] ~ [Clique aqui para saber mais sobre SystemD](/zabbix/Documentacao/correlatas/systemd.md)
       ↑
