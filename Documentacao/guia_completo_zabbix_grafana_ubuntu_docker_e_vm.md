@@ -20,15 +20,21 @@ Para cada comando, responda mentalmente:
 
 [ Kernel Linux ] ~ [Clique aqui para saber mais sobre Kernel](correlatas/kernel_linux.md)
       ↑
+      
 [ Serviços (systemd) ] ~ [Clique aqui para saber mais sobre SystemD](correlatas/systemd.md)
       ↑
+      
 [ Zabbix Server ] ←→ [ MySQL ] ~ [Clique aqui para saber mais sobre MySQL](correlatas/mysql.md)
       ↑                 ↑
+      
 [ Zabbix Agent ] Arquivos /var/lib/mysql
       ↑
+      
 [ Host Monitorado ]
 
+
 [ Apache + PHP ] → lê dados do banco ~ [Clique aqui para saber mais sobre Frontend Zabbix](correlatas/frontend_zabbix.md)
+
 [ Grafana (Docker) ] → consome API do Zabbix ~ [Clique aqui para saber mais sobre Grafana](correlatas/grafana.md)
 
 
