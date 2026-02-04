@@ -20,22 +20,22 @@ Para cada comando, responda mentalmente:
 
 [ Kernel Linux ] ~ [Clique aqui para saber mais sobre Kernel](correlatas/kernel_linux.md)
       ↑
-[ Serviços (systemd) ] ~ [Clique aqui para saber mais sobre SystemD](/zabbix/Documentacao/correlatas/systemd.md)
+[ Serviços (systemd) ] ~ [Clique aqui para saber mais sobre SystemD](correlatas/systemd.md)
       ↑
-[ Zabbix Server ] ←→ [ MySQL ] ~ [Clique aqui para saber mais sobre MySQL](/zabbix/Documentacao/correlatas/mysql.md)
+[ Zabbix Server ] ←→ [ MySQL ] ~ [Clique aqui para saber mais sobre MySQL](correlatas/mysql.md)
       ↑                 ↑
 [ Zabbix Agent ] Arquivos /var/lib/mysql
       ↑
 [ Host Monitorado ]
 
-[ Apache + PHP ] → lê dados do banco ~ [Clique aqui para saber mais sobre Frontend Zabbix](/zabbix/Documentacao/correlatas/frontend_zabbix.md)
-[ Grafana (Docker) ] → consome API do Zabbix ~ [Clique aqui para saber mais sobre Grafana](/zabbix/Documentacao/correlatas/grafana.md)
+[ Apache + PHP ] → lê dados do banco ~ [Clique aqui para saber mais sobre Frontend Zabbix](correlatas/frontend_zabbix.md)
+[ Grafana (Docker) ] → consome API do Zabbix ~ [Clique aqui para saber mais sobre Grafana](correlatas/grafana.md)
 
 
 📌 **Nada se comunica "magicamente"**. Tudo passa por:
-- Sockets ~ [Clique aqui para saber mais sobre Sockets](/zabbix/Documentacao/correlatas/sockets.md)
-- portas TCP ~ [Clique aqui para saber mais sobre TCP](/zabbix/Documentacao/correlatas/portas_tcp.md)
-- arquivos de configuração ~ [Clique aqui para saber mais sobre Arquivos de configuração](/zabbix/Documentacao/correlatas/arquivos_de_configuracao.md)
+- Sockets ~ [Clique aqui para saber mais sobre Sockets](correlatas/sockets.md)
+- portas TCP ~ [Clique aqui para saber mais sobre TCP](correlatas/portas_tcp.md)
+- arquivos de configuração ~ [Clique aqui para saber mais sobre Arquivos de configuração](correlatas/arquivos_de_configuracao.md)
 
 
 # 🗂️ ABA 0 — Root, sudo e execução de comandos
@@ -48,7 +48,7 @@ No Linux, somente o root pode:
 - iniciar serviços
 - alterar arquivos em /etc
 
-[CLique aqui para saber mais sobre ROOT](/zabbix/Documentacao/correlatas/root_sudo_execucao_comandos.md)
+[CLique aqui para saber mais sobre ROOT](correlatas/root_sudo_execucao_comandos.md)
 
 🧠 Observação importante
 
