@@ -128,24 +128,28 @@ sudo mysql
 ## Repositório
 
 ```
-wget https://repo.zabbix.com/...
+wget https://repo.zabbix.com/zabbix/6.0/ubuntu/pool/main/z/zabbix-release/zabbix-release_latest_6.0+ubuntu24.04_all.deb
 ```
 
 - baixa um pacote `.deb`
 - não instala Zabbix ainda
 
 ```
-sudo dpkg -i zabbix-release...
+sudo dpkg -i zabbix-release_latest_6.0+ubuntu24.04_all.deb
 ```
 
 - adiciona arquivos em `/etc/apt/sources.list.d/`
 
+```
+apt update
+```
+- atualiza os pacotes instalados
 ---
 
 ## Importação do schema
 
 ```
-zcat ... | mysql -u zabbix -p zabbix
+zcat /usr/share/zabbix-sql-scripts/mysql/server.sql.gz | mysql --default-character-set=utf8mb4 -uzabbix -p zabbix
 ```
 
 **Fluxo real:**
